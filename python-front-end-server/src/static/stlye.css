@@ -1,0 +1,40 @@
+/* static/styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.activity-card {
+    transition: transform 0.2s;
+    margin-bottom: 15px;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.activity-type-badge {
+    font-size: 0.8rem;
+}
+
+.activity-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.activity-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-stat-value {
+    font-weight: bold;
+}
+
+.activity-date {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
